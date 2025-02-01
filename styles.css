@@ -1,0 +1,57 @@
+body {
+    font-family: "Benton Sans Book", Arial, sans-serif;
+    margin: 10%; /* Maintain a balanced margin around the page */
+    padding: 0;
+    background-color: whilte;;
+    color: black;
+}
+
+.title {
+    font-size: 48px; /* Maintain a large, bold title for visibility */
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.subtitle {
+    font-size: 28px; /* Slightly increased subtitle size for readability */
+    text-align: center;
+    margin: 10px 20px;
+    line-height: 1.8;
+}
+
+.visualization {
+    max-width: 100%; /* Use full width for alignment */
+    margin: 20px auto;
+    padding: 15px; /* Slightly increased padding for balance */
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+.visualization iframe {
+    width: 100%;
+    height: 700px; /* Consistent height for iframes */
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 20px; /* Significantly larger text for readability */
+    line-height: 2.0; /* Comfortable spacing between lines */
+    margin: 30px 30px; /* Adjusted margin for better spacing */
+    padding-bottom: 70px;
+    text-align: justify; /* Align text for neatness */
+}
+
+.tableauPlaceholder {
+    width: 100%;
+    height: 900px; /* Ensure full display of Tableau visualizations */
+    margin-bottom: 20px; /* Slightly larger bottom margin for balance */
+}
+
+
+
